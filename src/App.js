@@ -40,7 +40,7 @@ class App extends Component {
         <div className="row mx-auto ">
           {
             this.state.emojiList.filter(value => {
-              return value.keywords.indexOf(this.state.inputValue) > -1
+              return value.keywords.toLowerCase().includes(this.state.inputValue.toLowerCase())
             }).map(el => {
               return <div className="card emojiCard  m-3   card-columns mx-auto d-flex justify-content-center " data-toggle="tooltip" data-placement="bottom" title="Click here to Copy" onClick={() => this.copyToClipboard(el.title, el.symbol)}>
                 <div className="emoji">
