@@ -11,7 +11,7 @@ const Navbar = () => {
             <span className="nav-link active" aria-current="page" >Home</span>
           </li>
           <li className="nav-item">
-            <span className="nav-link" data-toggle="modal" data-target="#exampleModal">About</span>
+            <span className="nav-link aboutLink" data-toggle="modal" data-target="#exampleModal">About</span>
           </li>
         </ul>
       </div>
