@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: column;
   width: 170px;
-  height: 170px
+  height: 170px;
 }
 
 h3 {
@@ -15,10 +15,12 @@ h3 {
 .noMatches {
   width: 100vw;
 }
-.navbar-nav, .nav-item {
+.navbar-nav,
+.nav-item {
   display: inline-block;
 }
 .nav-link {
+  color: white !important;
   cursor: pointer;
 }
 .nav-item {
@@ -36,9 +38,9 @@ p {
   bottom: 0px;
   left: 4px;
   padding: 4px !important;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 5px;
   font-weight: bolder;
-  background-color: rgba(0, 119, 255, .2);
+  background-color: rgba(0, 119, 255, 0.2);
   color: #07f;
 }
 .modal-body {
@@ -46,8 +48,9 @@ p {
 }
 .card {
   cursor: pointer;
-  border-radius: 8px 8px 8px 8px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset !important;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset !important;
   background-color: rgb(39, 37, 37) !important;
 }
 .emojiCard:active {
@@ -58,7 +61,7 @@ input {
   border-top: none !important;
   border-left: none !important;
   border-right: none !important;
-  box-shadow: none!important;
+  box-shadow: none !important;
   outline: none !important;
   color: white !important;
   border-radius: none !important;
@@ -77,17 +80,16 @@ i {
   color: white;
 }
 .navbar {
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset !important;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset !important;
   background-color: rgb(39, 37, 37);
 }
-.nav-link {
-  color: white!important;
+
+.aboutLink {
+  color: rgb(163, 163, 163) !important;
 }
-.aboutLink{
-  color: rgb(163, 163, 163) !important
-}
-.aboutLink:active{
-  color: white!important;
+.aboutLink:active {
+  color: white !important;
 }
 .fade-in {
   animation: fadeIn ease 0.6s;

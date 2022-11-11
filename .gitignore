@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/Project_Video
 /.pnp
 .pnp.js
 
