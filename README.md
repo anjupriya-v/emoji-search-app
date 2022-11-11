@@ -1,8 +1,13 @@
 # Emoji Search App
-## Developed using React.js
+
+## Tech Stack Used:
+
+- React.js
 
 ## Live Demo:
-$ https://emoji-search-application.herokuapp.com/
+
+https://user-images.githubusercontent.com/84177086/201366175-0f17e2b4-9d3c-4f1c-a441-ca9fc7849e03.mp4
+
 ## :point_down:Steps to initialize the project:
 
 - Clone the repository
